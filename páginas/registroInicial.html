@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="logos/logo.png" rel="shortcut icon" type="image/x-icon>">
+    <title>Registro</title>
+</head>
+<body>
+    <h2>Street Maker</h2>
+    <img src="logos/logo.png" alt="logo">
+    <h1>Registrate!</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+        <label for="nom">Nombre:</label> <br>
+        <input type="text" name="NombreUsuario" id="nom" maxlength="10"> <br>
+        <label for="ape">Apellido:</label> <br>
+        <input type="text" name="ApellidoUsuario" id="ape"> <br>
+        <label for="contra">Contraseña:</label> <br>
+        <input type="password" name="contra" id="contra"> <br>
+        <label for="contra">Confirma tú contraseña</label> <br>
+        <input type="password" name="contra" id="contra"> <br>
+
+        <label>Por favor, especifica tu género!</label> <br>
+        <input type="radio" name="genero" value="femenino" id="fem">
+        <label for="fem">Femenino</label> <br>
+        <input type="radio" name="genero" value="masculino" id="masc">
+        <label for="masc">Masculino</label> <br>
+        <input type="radio" name="genero" value="otro" id="otro">
+        <label for="otro">Otro</label> <br>
+        </fieldset>
+        <fieldset>
+        <label for="mail">Ingresa tu Email!</label> <br>
+            <input type="email" name="emailUsuario" id="mail"> <br>
+
+        <input type="checkbox" name="suscribir" value="acepta" id="sus">
+        <label for="sus">¿Quisieras suscribirte al boletin de novedades?</label> <br>
+        </fieldset>
+        <input type="submit" name="enviar" value="Crear cuenta" src="inicio.html" >
+        <input type="reset" name="borrar" value="borrar todos los datos introducidos">
+        <a href="main.html">Crear cuenta</a>
+    </form>
+    <!--PIE DE PAGINA-->
+    <footer>
+        <div class="contacto">
+            <a href="">streetMaker@gmail.com</a>
+            <p>telefono:2994515028</p>
+            <p>contacto empresarial: <a href=""> streetMaker.office@gmail.com</a></p>
+        </div>
+        <div class="redes">
+            <img src="" alt="instagram">
+            <img src="" alt="facebook">
+            <img src="" alt="tiktok">
+        </div>
+        <div class="acuerdos">
+            <a href="#">terminos y condiciones</a>
+            <a href="#">politicas de privacidad</a>
+            <a href="#">soporte y ayuda</a>
+        </div>
+    </footer>
+    <!--FIN PIE DE PAGINA-->
+</body>
+</html>
