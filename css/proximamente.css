@@ -1,6 +1,76 @@
-table{
-    display: flex;
-    position: relative;
-    left: 50%;
+body {
+    background-color: #f4f4f4; /* Color de fondo neutro */
+    font-family: 'Arial', sans-serif; /* Fuente legible */
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-pinceladas-acuarela-coloridas_23-2148120827.jpg?w=740&t=st=1699019680~exp=1699020280~hmac=6c1cb6cc8876f8c3af3d977899ae1a9105f50c3c5edd9bb1d6f702bca9601ff6); /* Puedes reemplazar 'imagen-pincelada.jpg' con la URL de tu imagen de fondo artístico */
+    background-size: cover; /* Ajustar la imagen al tamaño de la pantalla */
+    background-blend-mode: multiply;
 }
+
+.navegador {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navegador img {
+    max-width: 100px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.prox {
+    text-align: center;
+    font-size: 36px;
+    margin: 35px 0;
+    background: linear-gradient(45deg, #333, rgb(70, 47, 38)); /* Degradado lineal */
+    -webkit-background-clip: text; /* Opción para navegadores webkit */
+    color: transparent; /* Hace que el texto sea transparente */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #82a09c9d;
+}
+
+.tabla th, .tabla td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tabla th {
+    background-color: #333;
+    color: #ffffffd5;
+}
+
+.tabla img {
+    max-width: 200px;
+    height: auto;
+}
+
+.pie {
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
 }
