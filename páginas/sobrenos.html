@@ -10,7 +10,7 @@
 
 <body>
 
-    <header>
+    <header class="encabezado">
         <img src="../img/logo.png" alt="logo">
         <nav>
             <ul>
@@ -34,10 +34,10 @@
         </form>
     <!--Buscador-->
     </header>
-    <h1 >Street Maker</h1>
-    <h1>Nuesra empresa</h1>
+    <h1 >Nuestra empresa</h1>
+    <h1>Street Marker</h1>
     <h2>Nuestro logo</h2>
-        <img src="../img/logo.png" alt="logo">
+        <img src="../img/logo.png" alt="logo" class="img">
         
     <h2>Nuestro objetivo</h2>
     <p >
@@ -47,19 +47,25 @@
         <q>Contra toda opinión, no son los pintores sino los espectadores quienes hacen los cuadros </q><br>
         Marcel Duchamp.
     </p>
-    <h2>colaboradores</h2>
-    <div>
-        <p>Jorge Pérez</p>
-        <img src="../img/colaboradores/pelado.jpg" alt="pelado">
-    </div>
-    <div>
-        <p class="text">Paloma Amancay</p>
-        <img src="../img/colaboradores/mujer.jpg" alt="paloma">
-    </div>
-    <div>
-        <p class="text">Luis Andrew</p>
-        <img src="../img/colaboradores/juan.webp" alt="Luis">
-    </div>
+    <table border="1" summary="colaboradores" class="tabla">
+        <caption class="col"><h2>Colaboradores</h2></caption>
+        <tr>
+            <th>imagen</th>
+            <th>nombre</th>
+        </tr>
+        <tr>
+            <td><img src="../img/colaboradores/juan.webp" alt="juan"></td>
+            <td>juan carlos Benavidez (Director del proyecto)</td>
+        </tr>
+        <tr>
+            <td><img src="../img/colaboradores/mujer.jpg" alt="Amancay"></td>
+            <td>Amancay Azucena (Fotógrafa)</td>
+        </tr>
+        <tr>
+            <td><img src="../img/colaboradores/pelado.jpg" alt="Maximp"></td>
+            <td>Máximo Andrew (Profesor de artes)</td>
+        </tr>
+    </table>
     <footer>
         <div>
             <a href="">streetMaker@gmail.com</a>
