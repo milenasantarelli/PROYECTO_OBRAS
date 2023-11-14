@@ -1,5 +1,4 @@
-body {
-    background-color: #f4f4f4; /* Color de fondo neutro */
+body { /* Color de fondo neutro */
     font-family: 'Arial', sans-serif; /* Fuente legible */
     margin: 0;
     padding: 0;
@@ -7,34 +6,6 @@ body {
     background-size: cover; /* Ajustar la imagen al tamaño de la pantalla */
     background-blend-mode: multiply;
 }
-
-.navegador {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.navegador img {
-    max-width: 100px;
-    height: auto;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
 .prox {
     text-align: center;
     font-size: 36px;
@@ -47,9 +18,11 @@ nav ul li {
 
 
 .tabla {
-    width: 100%;
+    width: 60%;
     border-collapse: collapse;
     background-color: #82a09c9d;
+    position: relative;
+    left: 280px;
 }
 
 .tabla th, .tabla td {
@@ -76,7 +49,6 @@ footer{
     justify-content: space-between;
 }
 .redes{
-   display: flex;
-   justify-content: space-between;
-   
+    display: flex;
+    justify-content: space-between;
 }
