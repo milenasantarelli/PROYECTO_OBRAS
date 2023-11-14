@@ -36,7 +36,7 @@ p {
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    color: #000000; /* Color de texto secundario */
+    color: #464141; /* Color de texto secundario */
 }
 .tabla {
     width: 50%;
@@ -70,14 +70,15 @@ p {
     border-color: #000000;
 }
 
-footer {
-    margin-top: 30px;
-    background-color: #333; /* Color de fondo para el pie de página */
-    padding: 10px;
-    color: #fff; /* Color de texto del pie de página */
+footer{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
-footer a {
-    color: #fff; /* Color de los enlaces del pie de página */
-    margin-right: 15px;
+.redes{
+   display: flex;
+   justify-content: space-between;
+   
 }

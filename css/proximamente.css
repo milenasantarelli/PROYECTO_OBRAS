@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif; /* Fuente legible */
     margin: 0;
     padding: 0;
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-pinceladas-acuarela-coloridas_23-2148120827.jpg?w=740&t=st=1699019680~exp=1699020280~hmac=6c1cb6cc8876f8c3af3d977899ae1a9105f50c3c5edd9bb1d6f702bca9601ff6); /* Puedes reemplazar 'imagen-pincelada.jpg' con la URL de tu imagen de fondo artístico */
+    background-color: #a5a1a1;
     background-size: cover; /* Ajustar la imagen al tamaño de la pantalla */
     background-blend-mode: multiply;
 }
@@ -68,9 +68,15 @@ nav ul li {
     height: auto;
 }
 
-.pie {
-    background-color:#333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0px;
+footer{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.redes{
+   display: flex;
+   justify-content: space-between;
+   
 }
